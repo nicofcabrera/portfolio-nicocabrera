@@ -7,9 +7,8 @@ html {
 }
 
 body { 
-    background-color: #FAF1E6;
-    font-family: 'Inconsolata', monospace;  
-    /* border: thin solid red; jeeeeejejejejeje */
+  background-color: #FAF1E6;
+  font-family: 'Inconsolata', monospace;  
 }
 
 a {
@@ -29,15 +28,14 @@ a:hover,a:focus {
 .nav{
   font-family: 'Staatliches', cursive;
   color: #FDFAF6;
-  padding: 0 .1em;
+  padding: 0;
 }
 
 .sob, .sk, .pro, .con {
   box-shadow: 0 4px 6px 0px gray;
   border-bottom-left-radius: .6em;
   border-bottom-right-radius: .6em;
-  padding: 0.2em; 
-  width: calc(100% / 4);
+  padding: 0.3em;
 } 
 
 .sob{
@@ -57,6 +55,15 @@ a:hover,a:focus {
 }
 
 /* ### HEADER ####*/
+header{
+  min-height: 400px;
+}
+
+.contenedor_header{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .header-img {
   width: 200px;
   height: 200px;
@@ -72,7 +79,7 @@ a:hover,a:focus {
 /* ##### ACERCA DE #####*/
 .about {
   width: 80%;
-  min-height: 400px;
+  min-height: 350px;
   margin: 1em auto;
 }
 
@@ -86,9 +93,19 @@ a:hover,a:focus {
 /* ##### SKILLS ####*/
 .skills {
   width: 80%;
-  margin: 50px auto;  
+  min-height: 350px;
+  margin: 1em auto;  
 }
 
+.container_habilidades{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contenedor_imagenes_habilidades img{
+  width: 60px;
+  padding: 5px;
+}
 
 /* -----------------Proyectos ----------------------*/
 
@@ -117,12 +134,27 @@ footer {
 
 /* ------------medias-------------- */
 
+@media screen and (min-width:768px){
+  .sob, .sk, .pro,.con {
+    width: 150px;
+  }
+}
+
 @media screen and (min-width:992px){
   a:hover,a:focus {
     text-shadow: 1px 1px 2px black;
     transition: all .5s linear;
   }
+
+  .sob,
+  .sk,
+  .pro,
+  .con {
+   width: 200px;
+  }
 }
+
+
 
 
 
