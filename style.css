@@ -1,3 +1,5 @@
+/* ----------------- GENERALES ----------------- */
+
 html {
     box-sizing: border-box;
 }
@@ -11,24 +13,23 @@ body {
   font-family: 'Inconsolata', monospace;  
 }
 
-a {
+a{
   text-decoration: none;
-  color: #FDFAF6;
-  text-shadow: 0 0 .1em black;
-}
-
-a:hover,a:focus {
-  color: white;
-  transition: all .3s ease;
 }
 
 
-/* ######## NAVEGACION ###### */
+/* ----------------- NAVEGACION ----------------- */
 
 .nav{
   font-family: 'Staatliches', cursive;
   color: #FDFAF6;
   padding: 0;
+}
+
+nav a {
+  color: #FDFAF6;
+  text-shadow: 0 0 .1em black;
+  transition: all .3s ease;
 }
 
 .sob, .sk, .pro, .con {
@@ -39,24 +40,24 @@ a:hover,a:focus {
 } 
 
 .sob{
-    background-color:lightcoral;
+  background-color:lightcoral;
 }
 
 .sk{
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 .pro {
-    background-color: lightseagreen;
+  background-color: lightseagreen;
 }
 
 .con {
-    background-color: rgb(93, 77, 102);
+  background-color: rgb(93, 77, 102);
 }
 
-/* ### HEADER ####*/
-header{
-  min-height: 400px;
+/* ----------------- HEADER ----------------- */
+.header{
+  min-height: 500px;
 }
 
 .contenedor_header{
@@ -64,19 +65,22 @@ header{
   margin: 0 auto;
 }
 
-.header-img {
-  width: 200px;
-  height: 200px;
-  margin: 2em auto;
-  border-radius: 30px;
-  box-shadow: 3px 3px 5px 3px gray;
+.header-img{
+  text-align: center;
 }
+
+.header-img img{
+  width: 150px;
+  height: 150px;
+}
+
+
 
 .contenedor_nombre_header{
   padding: 10px;
 }
 
-/* ##### ACERCA DE #####*/
+/* ----------------- ACERCA DE ----------------- */
 .about {
   width: 80%;
   min-height: 350px;
@@ -90,7 +94,7 @@ header{
 
 
 
-/* ##### SKILLS ####*/
+/* ----------------- HABILIDADES -----------------*/
 .skills {
   width: 80%;
   min-height: 350px;
@@ -107,13 +111,29 @@ header{
   padding: 5px;
 }
 
-/* -----------------Proyectos ----------------------*/
+/* -----------------PROYECTOS ----------------------*/
+.proyectos{
+  width: 80%;
+  margin: 1em auto;
+}
+
+.proyectos article{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container_proyectos{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ver-mas{
+  width: 200px;
+}
 
 
 
-
-
-/* ---------------Contacto---------------- */
+/* --------------- CONTACTO ---------------- */
 
 
 .form { 
@@ -124,7 +144,7 @@ header{
 
 
 
-/* ------------FOOTER------------ */
+/* ------------ FOOTER ------------ */
 footer {
   background-color: rgb(167, 81, 248);    
 }
@@ -132,7 +152,7 @@ footer {
 
 
 
-/* ------------medias-------------- */
+/* ------------ MEDIA QUERIES -------------- */
 
 @media screen and (min-width:768px){
   .sob, .sk, .pro,.con {
@@ -141,9 +161,11 @@ footer {
 }
 
 @media screen and (min-width:992px){
-  a:hover,a:focus {
-    text-shadow: 1px 1px 2px black;
-    transition: all .5s linear;
+  nav a:hover,
+  nav a:focus {
+    color: #FDFAF6;
+    text-shadow: 0 0 .5em black;
+    transition: all .3s ease;
   }
 
   .sob,
