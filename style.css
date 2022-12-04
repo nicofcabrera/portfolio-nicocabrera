@@ -17,6 +17,14 @@ a{
   text-decoration: none;
 }
 
+.btn, .btn-outline-dark{
+  transition: all 0.2s ease-in;
+}
+.btn:hover, .btn-outline-dark:hover{
+  transition: all 0.2s ease-in;
+}
+
+
 
 /* ----------------- NAVEGACION ----------------- */
 
@@ -134,19 +142,51 @@ nav a {
 
 
 /* --------------- CONTACTO ---------------- */
-
-
-.form { 
-  /* width: 300px; */
-  margin-bottom: 20px;
+.contacto{
+  min-height: 450px;
 }
 
+.container_contacto{
+  max-width: 600px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.redes{
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border: thin solid black;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in;
+}
+
+.redes i{
+  color: white;
+  font-size: 1.4rem;
+  transition: all 0.2s ease-in;
+}
+
+.redes:hover{
+  background-color: initial;
+}
+
+.redes:hover i{
+  color: black;
+}
 
 
 
 /* ------------ FOOTER ------------ */
 footer {
-  background-color: rgb(167, 81, 248);    
+  /* background-color: rgb(167, 81, 248);     */
+  font-size: 15px;
 }
 
 
