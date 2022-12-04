@@ -40,6 +40,10 @@ nav a {
   transition: all .3s ease;
 }
 
+nav a:hover{
+  color: #FDFAF6;
+}
+
 .sob, .sk, .pro, .con {
   box-shadow: 0 4px 6px 0px gray;
   border-bottom-left-radius: .6em;
@@ -203,7 +207,6 @@ footer {
 @media screen and (min-width:992px){
   nav a:hover,
   nav a:focus {
-    color: #FDFAF6;
     text-shadow: 0 0 .5em black;
     transition: all .3s ease;
   }
