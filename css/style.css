@@ -49,6 +49,7 @@ nav a:hover{
   border-bottom-left-radius: .6em;
   border-bottom-right-radius: .6em;
   padding: 0.3em;
+  flex-basis: 25%;
 } 
 
 .sob{
@@ -216,6 +217,7 @@ footer {
   .pro,
   .con {
    width: 200px;
+   flex-basis: auto;
   }
 }
 
