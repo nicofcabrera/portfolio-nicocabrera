@@ -135,6 +135,10 @@ nav a:hover{
   margin: 0 auto;
 }
 
+.proyectos .card img{
+  object-fit: cover;
+}
+
 .container_proyectos{
   max-width: 600px;
   margin: 0 auto;
@@ -155,7 +159,6 @@ nav a:hover{
   max-width: 600px;
   background-color: #fff;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .redes{
@@ -190,8 +193,7 @@ nav a:hover{
 
 /* ------------ FOOTER ------------ */
 footer {
-  /* background-color: rgb(167, 81, 248);     */
-  font-size: 15px;
+  font-size: 14px;
 }
 
 
@@ -202,6 +204,10 @@ footer {
 @media screen and (min-width:768px){
   .sob, .sk, .pro,.con {
     width: 150px;
+  }
+
+  .container_contacto{
+    border-radius: 10px;
   }
 }
 
