@@ -17,6 +17,10 @@ a{
   text-decoration: none;
 }
 
+h3{
+  font-size: 20px;
+}
+
 .btn, .btn-outline-dark{
   transition: all 0.2s ease-in;
 }
@@ -225,6 +229,7 @@ footer {
   .container_proyectos img{
     border-bottom-left-radius: 6px;
     border-top-left-radius: 6px;
+    border-top-right-radius: 0px;
   }
 }
 
