@@ -50,8 +50,8 @@ nav a:hover{
 
 .sob, .sk, .pro, .con {
   box-shadow: 0 4px 6px 0px gray;
-  border-bottom-left-radius: .6em;
-  border-bottom-right-radius: .6em;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
   padding: 0.3em;
   flex-basis: 25%;
 } 
@@ -171,8 +171,7 @@ nav a:hover{
 .redes{
   width: 50px;
   height: 50px;
-  background-color: black;
-  border: thin solid black;
+  background-color: #212529;
   border-radius: 50%;
   margin: 10px;
   padding: 10px;
@@ -189,7 +188,8 @@ nav a:hover{
 }
 
 .redes:hover{
-  background-color: initial;
+  background-color: #fff;
+  /* border: thin solid black; */
 }
 
 .redes:hover i{
@@ -201,6 +201,24 @@ nav a:hover{
 /* ------------ FOOTER ------------ */
 footer {
   font-size: 14px;
+}
+
+/* ------------ DARK MODE ------------ */
+.container_darkmode button{
+  position: fixed;
+  bottom: 2rem;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  z-index: 60;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_darkmode i{
+  color: #fff;
 }
 
 
