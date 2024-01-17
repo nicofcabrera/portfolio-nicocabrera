@@ -87,11 +87,9 @@ nav a:hover{
 }
 
 .header-img img{
-  width: 150px;
-  height: 150px;
+  width: 225px;
+  border-radius: 50%;
 }
-
-
 
 .contenedor_nombre_header{
   padding: 10px;
