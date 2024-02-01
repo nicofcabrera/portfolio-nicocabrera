@@ -53,19 +53,21 @@ h2{
 nav a {
   color: #FDFAF6;
   text-shadow: 0 0 .1em black;
-  transition: all .3s ease;
+  transition: text-shadow .15s ease;
 }
 
 nav a:hover{
-  color: #FDFAF6;
+  color: currentColor;
 }
 
-.sob, .sk, .pro, .con {
-  box-shadow: 0 4px 6px 0px gray;
+
+.sob, .sk, .pro, .con, .exp {
+  box-shadow: 0 2px 4px 0px gray;
   border-bottom-left-radius: .5em;
   border-bottom-right-radius: .5em;
   padding: 0.3em;
   flex-basis: 25%;
+  width: calc(100% / 4);
 } 
 
 .sob{
@@ -82,6 +84,10 @@ nav a:hover{
 
 .con {
   background-color: rgb(93, 77, 102);
+}
+
+.exp{
+  background-color: #7dcd7d;
 }
 
 /* ----------------- HEADER ----------------- */
@@ -128,7 +134,7 @@ nav a:hover{
 .experiencia{
   width: 80%;
   max-width: 600px;
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
 }
 
 .experiencia img{
@@ -266,6 +272,14 @@ footer {
   }
 }
 
+@media screen and (min-width:576px){
+  .container_nav{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width:768px){
   .sob, .sk, .pro,.con {
     width: 150px;
@@ -286,14 +300,14 @@ footer {
   nav a:hover,
   nav a:focus {
     text-shadow: 0 2px .2em black;
-    transition: all .3s ease;
   }
 
   .sob,
   .sk,
   .pro,
-  .con {
-   width: 200px;
+  .con,
+  .exp {
+   width: calc(100% / 4);
    flex-basis: auto;
   }
 }
