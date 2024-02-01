@@ -2,7 +2,9 @@ const btnDark = document.querySelector(".btn-dark_mode"),
   body = document.querySelector("body"),
   navegacion = document.querySelector("nav"),
   proyectos = document.querySelector(".container_proyectos"),
-  contacto = document.querySelector(".container_contacto")
+  contacto = document.querySelector(".container_contacto"),
+  boton = document.querySelectorAll(".boton"),
+  imagen = document.querySelectorAll(".experiencia .bg-dark")
 
 btnDark.addEventListener("click", () => {
   btnDark.firstElementChild.classList.toggle("d-none")
@@ -11,7 +13,7 @@ btnDark.addEventListener("click", () => {
   body.classList.toggle("bg-dark")
   body.classList.toggle("text-white")
 
-  navegacion.querySelectorAll("article").forEach(e => {
+  navegacion.querySelectorAll("a").forEach(e => {
     e.classList.toggle("bg-secondary")
     e.classList.toggle("bg-gradient")
     e.classList.toggle("shadow-none")
@@ -28,6 +30,16 @@ btnDark.addEventListener("click", () => {
     e.classList.toggle("bg-dark")
     e.classList.toggle("text-white")
 
+  })
+
+  boton.forEach(e => {
+    e.classList.toggle("btn-dark")
+    e.classList.toggle("btn-light")
+  })
+
+  imagen.forEach(e => {
+    e.classList.toggle("bg-dark")
+    e.classList.toggle("bg-secondary")
   })
 
   contacto.classList.toggle("bg-secondary")
