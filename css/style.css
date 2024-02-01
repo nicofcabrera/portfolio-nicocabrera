@@ -1,6 +1,7 @@
 /* ----------------- GENERALES ----------------- */
 :root{
   --black-opacity:rgba(0, 0, 0, 0.05);
+  --white-opacity: #fff1;
 }
 html {
     box-sizing: border-box;
@@ -151,6 +152,10 @@ nav a:hover{
 .experiencia a:hover, .experiencia a:focus{
   background-color: var(--black-opacity);
   color: currentColor;
+}
+
+body.bg-dark .experiencia a:hover{
+  background-color: var(--white-opacity);
 }
 
 /* ----------------- HABILIDADES -----------------*/
