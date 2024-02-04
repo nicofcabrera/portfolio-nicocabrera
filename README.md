@@ -10,7 +10,7 @@ Quisiera formar parte de un equipo de trabajo para crecer en conjunto cumpliendo
 Dentro de mi Github encontrarás mis proyectos personales con sus deploys y breve descripción, que fui haciendo a medida que iba aprendiendo nuevas tecnologías con el fin de poner en práctica y afianzar los nuevos conocimientos.
 
 ## Contacto
-Si deseas conocerme más, puedes visitar mi **[Linkedin](https://www.linkedin.com/in/nicolas-francisco-cabrera/ "Ir a Linkedin de Nicolas Cabrera")** y hablarme por allí. También puedes visitar mi **[Portfolio](https://nicofcabrera.netlify.app/ "Visiar portfolio de Nicolas Cabrera")**.
+Si deseas conocerme más, puedes visitar mi **[Linkedin](https://www.linkedin.com/in/nicolas-francisco-cabrera/ "Ir a Linkedin de Nicolas Cabrera")** y hablarme por allí. También puedes visitar mi **[Portfolio](https://nicofcabrera.com.ar/ "Visiar portfolio de Nicolas Cabrera")**.
 
 Estoy abierto a escuchar propuestas, opiniones, sugerencias con la idea de seguir mejorando cada día.
 
